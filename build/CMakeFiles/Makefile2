@@ -53,10 +53,10 @@ RM = C:\msys64\mingw64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\extract
+CMAKE_SOURCE_DIR = C:\repo_new\deribit
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\extract\build
+CMAKE_BINARY_DIR = C:\repo_new\deribit\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -84,14 +84,14 @@ clean: CMakeFiles/deribit.dir/clean
 CMakeFiles/deribit.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\deribit.dir\build.make CMakeFiles/deribit.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\deribit.dir\build.make CMakeFiles/deribit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\extract\build\CMakeFiles --progress-num=1,2,3,4 "Built target deribit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\repo_new\deribit\build\CMakeFiles --progress-num=1,2,3,4 "Built target deribit"
 .PHONY : CMakeFiles/deribit.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/deribit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\extract\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\repo_new\deribit\build\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/deribit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\extract\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\repo_new\deribit\build\CMakeFiles 0
 .PHONY : CMakeFiles/deribit.dir/rule
 
 # Convenience name for target.
@@ -101,7 +101,7 @@ deribit: CMakeFiles/deribit.dir/rule
 # codegen rule for target.
 CMakeFiles/deribit.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\deribit.dir\build.make CMakeFiles/deribit.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\extract\build\CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target deribit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\repo_new\deribit\build\CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target deribit"
 .PHONY : CMakeFiles/deribit.dir/codegen
 
 # clean rule for target.

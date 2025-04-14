@@ -1,5 +1,5 @@
-CMakeFiles/deribit.dir/main.cpp.obj: C:\extract\main.cpp \
- C:/extract/include/api_client.hpp \
+CMakeFiles/deribit.dir/main.cpp.obj: C:\repo_new\deribit\main.cpp \
+ C:/repo_new/deribit/include/api_client.hpp \
  C:/msys64/mingw64/include/c++/14.2.0/string \
  C:/msys64/mingw64/include/c++/14.2.0/bits/requires_hosted.h \
  C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -98,7 +98,7 @@ CMakeFiles/deribit.dir/main.cpp.obj: C:\extract\main.cpp \
  C:/msys64/mingw64/include/c++/14.2.0/bits/uses_allocator.h \
  C:/msys64/mingw64/include/c++/14.2.0/bits/uses_allocator_args.h \
  C:/msys64/mingw64/include/c++/14.2.0/tuple \
- C:/extract/third_party/json/single_include/nlohmann/json.hpp \
+ C:/repo_new/deribit/third_party/json/single_include/nlohmann/json.hpp \
  C:/msys64/mingw64/include/c++/14.2.0/algorithm \
  C:/msys64/mingw64/include/c++/14.2.0/bits/stl_algo.h \
  C:/msys64/mingw64/include/c++/14.2.0/bits/algorithmfwd.h \
@@ -253,7 +253,7 @@ CMakeFiles/deribit.dir/main.cpp.obj: C:\extract\main.cpp \
  C:/msys64/mingw64/include/c++/14.2.0/bits/stl_numeric.h \
  C:/msys64/mingw64/include/c++/14.2.0/pstl/glue_numeric_defs.h \
  C:/msys64/mingw64/include/c++/14.2.0/any \
- C:/extract/include/ws_market_stream.hpp \
+ C:/repo_new/deribit/include/ws_market_stream.hpp \
  C:/msys64/mingw64/include/c++/14.2.0/iostream \
  C:/msys64/mingw64/include/c++/14.2.0/thread \
  C:/msys64/mingw64/include/c++/14.2.0/bits/std_thread.h \

@@ -52,10 +52,10 @@ RM = C:\msys64\mingw64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\extract
+CMAKE_SOURCE_DIR = C:\repo_new\deribit
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\extract\build
+CMAKE_BINARY_DIR = C:\repo_new\deribit\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/deribit.dir/depend.make
@@ -73,48 +73,48 @@ CMakeFiles/deribit.dir/codegen:
 
 CMakeFiles/deribit.dir/main.cpp.obj: CMakeFiles/deribit.dir/flags.make
 CMakeFiles/deribit.dir/main.cpp.obj: CMakeFiles/deribit.dir/includes_CXX.rsp
-CMakeFiles/deribit.dir/main.cpp.obj: C:/extract/main.cpp
+CMakeFiles/deribit.dir/main.cpp.obj: C:/repo_new/deribit/main.cpp
 CMakeFiles/deribit.dir/main.cpp.obj: CMakeFiles/deribit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\extract\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/deribit.dir/main.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/deribit.dir/main.cpp.obj -MF CMakeFiles\deribit.dir\main.cpp.obj.d -o CMakeFiles\deribit.dir\main.cpp.obj -c C:\extract\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\repo_new\deribit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/deribit.dir/main.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/deribit.dir/main.cpp.obj -MF CMakeFiles\deribit.dir\main.cpp.obj.d -o CMakeFiles\deribit.dir\main.cpp.obj -c C:\repo_new\deribit\main.cpp
 
 CMakeFiles/deribit.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/deribit.dir/main.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\extract\main.cpp > CMakeFiles\deribit.dir\main.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\repo_new\deribit\main.cpp > CMakeFiles\deribit.dir\main.cpp.i
 
 CMakeFiles/deribit.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/deribit.dir/main.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\extract\main.cpp -o CMakeFiles\deribit.dir\main.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\repo_new\deribit\main.cpp -o CMakeFiles\deribit.dir\main.cpp.s
 
 CMakeFiles/deribit.dir/src/api_client.cpp.obj: CMakeFiles/deribit.dir/flags.make
 CMakeFiles/deribit.dir/src/api_client.cpp.obj: CMakeFiles/deribit.dir/includes_CXX.rsp
-CMakeFiles/deribit.dir/src/api_client.cpp.obj: C:/extract/src/api_client.cpp
+CMakeFiles/deribit.dir/src/api_client.cpp.obj: C:/repo_new/deribit/src/api_client.cpp
 CMakeFiles/deribit.dir/src/api_client.cpp.obj: CMakeFiles/deribit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\extract\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/deribit.dir/src/api_client.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/deribit.dir/src/api_client.cpp.obj -MF CMakeFiles\deribit.dir\src\api_client.cpp.obj.d -o CMakeFiles\deribit.dir\src\api_client.cpp.obj -c C:\extract\src\api_client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\repo_new\deribit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/deribit.dir/src/api_client.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/deribit.dir/src/api_client.cpp.obj -MF CMakeFiles\deribit.dir\src\api_client.cpp.obj.d -o CMakeFiles\deribit.dir\src\api_client.cpp.obj -c C:\repo_new\deribit\src\api_client.cpp
 
 CMakeFiles/deribit.dir/src/api_client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/deribit.dir/src/api_client.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\extract\src\api_client.cpp > CMakeFiles\deribit.dir\src\api_client.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\repo_new\deribit\src\api_client.cpp > CMakeFiles\deribit.dir\src\api_client.cpp.i
 
 CMakeFiles/deribit.dir/src/api_client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/deribit.dir/src/api_client.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\extract\src\api_client.cpp -o CMakeFiles\deribit.dir\src\api_client.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\repo_new\deribit\src\api_client.cpp -o CMakeFiles\deribit.dir\src\api_client.cpp.s
 
 CMakeFiles/deribit.dir/src/ws_market_stream.cpp.obj: CMakeFiles/deribit.dir/flags.make
 CMakeFiles/deribit.dir/src/ws_market_stream.cpp.obj: CMakeFiles/deribit.dir/includes_CXX.rsp
-CMakeFiles/deribit.dir/src/ws_market_stream.cpp.obj: C:/extract/src/ws_market_stream.cpp
+CMakeFiles/deribit.dir/src/ws_market_stream.cpp.obj: C:/repo_new/deribit/src/ws_market_stream.cpp
 CMakeFiles/deribit.dir/src/ws_market_stream.cpp.obj: CMakeFiles/deribit.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\extract\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/deribit.dir/src/ws_market_stream.cpp.obj"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/deribit.dir/src/ws_market_stream.cpp.obj -MF CMakeFiles\deribit.dir\src\ws_market_stream.cpp.obj.d -o CMakeFiles\deribit.dir\src\ws_market_stream.cpp.obj -c C:\extract\src\ws_market_stream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\repo_new\deribit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/deribit.dir/src/ws_market_stream.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/deribit.dir/src/ws_market_stream.cpp.obj -MF CMakeFiles\deribit.dir\src\ws_market_stream.cpp.obj.d -o CMakeFiles\deribit.dir\src\ws_market_stream.cpp.obj -c C:\repo_new\deribit\src\ws_market_stream.cpp
 
 CMakeFiles/deribit.dir/src/ws_market_stream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/deribit.dir/src/ws_market_stream.cpp.i"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\extract\src\ws_market_stream.cpp > CMakeFiles\deribit.dir\src\ws_market_stream.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\repo_new\deribit\src\ws_market_stream.cpp > CMakeFiles\deribit.dir\src\ws_market_stream.cpp.i
 
 CMakeFiles/deribit.dir/src/ws_market_stream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/deribit.dir/src/ws_market_stream.cpp.s"
-	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\extract\src\ws_market_stream.cpp -o CMakeFiles\deribit.dir\src\ws_market_stream.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\repo_new\deribit\src\ws_market_stream.cpp -o CMakeFiles\deribit.dir\src\ws_market_stream.cpp.s
 
 # Object files for target deribit
 deribit_OBJECTS = \
@@ -135,7 +135,7 @@ deribit.exe: C:/msys64/mingw64/lib/libcrypto.dll.a
 deribit.exe: CMakeFiles/deribit.dir/linkLibs.rsp
 deribit.exe: CMakeFiles/deribit.dir/objects1.rsp
 deribit.exe: CMakeFiles/deribit.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\extract\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable deribit.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\repo_new\deribit\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable deribit.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\deribit.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -147,6 +147,6 @@ CMakeFiles/deribit.dir/clean:
 .PHONY : CMakeFiles/deribit.dir/clean
 
 CMakeFiles/deribit.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\extract C:\extract C:\extract\build C:\extract\build C:\extract\build\CMakeFiles\deribit.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\repo_new\deribit C:\repo_new\deribit C:\repo_new\deribit\build C:\repo_new\deribit\build C:\repo_new\deribit\build\CMakeFiles\deribit.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/deribit.dir/depend
 

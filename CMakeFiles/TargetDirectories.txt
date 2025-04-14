@@ -1,0 +1,3 @@
+C:/repo_new/deribit/CMakeFiles/deribit.dir
+C:/repo_new/deribit/CMakeFiles/edit_cache.dir
+C:/repo_new/deribit/CMakeFiles/rebuild_cache.dir

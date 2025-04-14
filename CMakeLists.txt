@@ -28,6 +28,4 @@ target_link_libraries(deribit
     OpenSSL::SSL
     OpenSSL::Crypto
     ws2_32
-    Threads::Threads
-
 )

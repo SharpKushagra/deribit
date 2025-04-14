@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/repo_new/deribit/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/deribit.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\deribit.dir\\main.cpp.obj -c C:\\repo_new\\deribit\\main.cpp",
+  "file": "C:/repo_new/deribit/main.cpp",
+  "output": "CMakeFiles/deribit.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/repo_new/deribit/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/deribit.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\deribit.dir\\src\\api_client.cpp.obj -c C:\\repo_new\\deribit\\src\\api_client.cpp",
+  "file": "C:/repo_new/deribit/src/api_client.cpp",
+  "output": "CMakeFiles/deribit.dir/src/api_client.cpp.obj"
+},
+{
+  "directory": "C:/repo_new/deribit/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/deribit.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\deribit.dir\\src\\ws_market_stream.cpp.obj -c C:\\repo_new\\deribit\\src\\ws_market_stream.cpp",
+  "file": "C:/repo_new/deribit/src/ws_market_stream.cpp",
+  "output": "CMakeFiles/deribit.dir/src/ws_market_stream.cpp.obj"
+}
+]
