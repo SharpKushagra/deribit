@@ -1,0 +1,3 @@
+C:/extract/build/CMakeFiles/deribit.dir
+C:/extract/build/CMakeFiles/edit_cache.dir
+C:/extract/build/CMakeFiles/rebuild_cache.dir
